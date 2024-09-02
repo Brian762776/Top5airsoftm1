@@ -1,0 +1,7 @@
+echo "# -DOCTYPE-html-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Brian762776/-DOCTYPE-html-.git
+git push -u origin main
